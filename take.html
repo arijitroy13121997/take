@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html style="overflow-x:hidden;">
+<head>
+	<title>Take</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  	
+</head>
+<body style="overflow-x:hidden;">
+	<style>
+		
+@font-face{
+	font-family: OpenSans;
+	src: url(Open_Sans/OpenSans-Light.ttf);
+}
+	@font-face{
+	font-family: OpenSans semibold;
+	src: url(Open_Sans/OpenSans-SemiBold.ttf);
+}
+.hd{
+	background-image: url(Masthead1.png);
+	min-height: 951px;
+	overflow: hidden;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: relative;
+}
+.s{
+	padding-top: 25px;
+	color: white;
+	font-family: Merriweather;
+	padding-left: 165px;
+	padding-right: 165px;
+
+}
+#take{
+	font-family: Merriweather;
+	font-size: 25px;
+	margin-left: 10px;
+}
+.txt{
+	font-family: OpenSans ;
+	padding-top: 240px;
+}
+.smthng{
+	padding-top: 290px;
+	color: black;
+	font-family:OpenSans;
+}
+.smthng2{
+	padding-top: 370px;
+	font-family:OpenSans;
+	color: #7c7c7c;
+}
+#per{
+	padding-right: 30px;
+	padding-left:0px;
+}
+#per1{
+	margin-right: 450px;
+	font-size: 10px;
+}
+.gly{
+	margin-right: 20px;
+	float: right;
+	color: white;
+}
+.pics1{
+	    margin-left: 102px;
+	    padding-left: 131px;
+}
+.block1{
+	background-image: url(box1.png);
+	height: 200px;
+	overflow: hidden;
+	font-family: OpenSans;
+	color: white;
+	padding-left: 30px;
+}
+.block2{
+	background-image: url(box2.png);
+	height: 200px;
+	overflow: hidden;
+	font-family: OpenSans;
+	color: white;
+	padding-left: 30px;
+}
+.block3{
+	background-image: url(box3.png);
+	height: 200px;
+	overflow: hidden;
+	font-family: OpenSans;
+	color: white;
+	padding-left: 30px;
+}
+.block4{
+	background-image: url(box4.png);
+	height: 200px;
+	overflow: hidden;
+	font-family: OpenSans;
+	color: white;
+	padding-left: 30px;
+}
+.block5{
+	background-image: url(box5.png);
+	min-height: 200px;
+	overflow: hidden;
+	font-family: OpenSans;
+	color: white;
+	padding-left: 30px;
+}
+.block6{
+	background-image: url(box6.png);
+	height: 200px;
+	overflow: hidden;
+	font-family: OpenSans;
+	color: white;
+	padding-left: 30px;
+}
+.block7{
+	background-image: url(box7.png);
+	height: 200px;
+	overflow: hidden;
+	font-family: OpenSans;
+	color: white;
+	padding-left: 30px;
+
+}
+.dets{
+	font-family:OpenSans; 
+	padding-left: 165px;
+	padding-right: 165px;
+}
+#look{
+	color: #7c7c7c;
+}
+.pwr{
+	background-image: url(pwr.png);
+	
+	overflow: hidden;
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+.pwr1{
+	padding-top: 300px;
+	font-family:OpenSans;
+	color: white;
+	font-size: 40px;
+	padding-left: 150px;
+}
+#pwr2{
+	font-size: 15px; 
+}
+#pwr3{
+	font-size: 15px;
+
+}
+.rsn1{
+	padding-top: 100px;
+	padding-left: 165px;
+	padding-right: 165px;
+}
+
+#rsn{
+	font-family: OpenSans;
+}
+#rsn2{
+	font-family: OpenSans;
+}
+.block8{
+	background-color: #82CA9C;
+	overflow: hidden;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: relative;
+}
+.block9{
+	background-image: url(box6.png);
+	height: 100px;
+	overflow: hidden;
+	font-family: OpenSans;
+	color: white;
+	padding-left: 30px;
+}
+.c1 {
+	transition: box-shadow .3s;
+	border: 0px solid #ccc;
+	background: #fff;
+
+}
+.bx1:hover {
+		 box-shadow: 0 0 15px rgba(33,33,33,.2);
+}
+.buy{
+	padding-top: 100px;
+	padding-bottom: 100px;
+	padding-left: 165px;
+	padding-right: 165px;
+}
+.btn1 {
+    border: none;
+    color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    border-radius: 6px;
+}
+.btn1:hover{
+	background-color:#9c63a5 !important;
+}
+.c1{
+	margin: 40px;
+	margin-right: 60px!important;
+	font-family: OpenSans;
+}
+#solo{
+	margin-top:10px;
+	margin-bottom:10px;
+	font-size: 40px;
+}
+#solo1{
+	color:#7c7c7c;
+}
+.btn2 {
+    border: none;
+    color: white;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-right: 35px;
+    padding-left: 35px;
+    text-align: center;
+    display: inline-block;
+    font-size: 15px;
+    margin-top: 15px;
+    margin-bottom:10px; 
+    border-radius: 3px;
+    background-color:#82ca9c;
+}
+.fa{
+	font-size:25px;
+	color:#7c7c7c;
+	margin-right: 15px;
+}
+.foo1{
+	background-color: #192431;
+
+}
+.foo2{
+	margin-top: 100px;
+	color: white;
+	font-family: OpenSans;
+	font-size: 13px;
+	margin-bottom: 100px;
+	padding-right: 165px;
+	padding-left: 165px;
+}
+.foo3{
+
+	color: white;
+	font-family: OpenSans;
+	font-size: 13px;
+}
+#spam{
+	margin-right: 200px;
+}
+
+.foo4{
+	padding-left: 0px;
+	color: white;
+}
+#a{
+	color: white;
+}
+#rsn3{
+	padding-bottom: 100px;
+}
+.footrow:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+.foo4{
+
+   	float: left;
+   	width: 33.33%;
+    padding: 20px;
+    height: 300px;
+}
+}
+
+
+@media(max-width:768px){
+
+	.s{
+	padding-top: 5px;
+	color: white;
+	font-family: Merriweather;
+	padding-left: 0px!important;
+	padding-right: 0px!important;
+
+}
+	#take{
+	font-family: Merriweather;
+	font-size: 20px;
+	margin-left: 5px;
+}
+.txt{
+	font-family: OpenSans ;
+	padding-top: 15px;
+	padding-bottom: 0px;
+	font-size: 10px;
+}
+
+#per{
+	font-size: 23px!important;
+	padding-right: 0px;
+}
+#per1{
+	font-size: 12px!important;
+	margin-right: 0px;
+}
+.smthng{
+	padding-top: 10px;
+	color: black;
+	font-family:OpenSans;
+}
+.smthng2{
+	padding-top: 5px;
+	font-family:OpenSans;
+	color: #7c7c7c;
+}
+.dets{
+	margin-left: 25px;
+	padding-left: 0px;
+	padding-right: 0px;
+
+}
+.pwr{
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-top: 0px;
+	background-size: 350px;
+}
+.pwr1{
+	padding-top: 20px!important;
+	font-size: 30px!important;
+	padding-left: 0px;
+}
+#pwr2{
+	display: none;
+}
+
+.rsn1{
+	padding-top: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+
+}
+.block8{
+	background-image: none;
+}
+.buy{
+	padding-top: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+.foo2{
+	padding-right: 0px;
+	padding-left: 0px;
+	padding-bottom: 5px;
+}
+#spam{
+	margin-right: 0px;
+}
+.pics1{
+	margin-left: 0px;
+	padding-left: 0px;
+}	
+#rsn3{
+	padding-bottom: 5px;
+}
+}
+
+
+	</style>
+	<div class="container-fluid hd">	
+		<div class="container s">
+			<img src="shape.png"><span id="take"><i>take</i></span>
+			<div class="txt">
+
+				<span style="font-size: 40px;" id="per"> Picture Perfect</span>
+				<p  id="per1"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				 tempor incididunt ut labore et dolore magna aliqua</p><br><br>
+
+			</div>
+			<div class="row">
+			<div class="col-md-6 smthng">
+				<h2>Start Something New</h2><br>
+				<span style="color: #7c7c7c"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p><br>
+				<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p><br>
+				<p> eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem.</p><br></span>
+			</div>
+			<div class="col-md-6 smthng2">
+				<span style="color: #7c7c7c"><p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. </p><br>
+				<p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p></span><br>
+			</div>
+			</div> 
+		</div>
+	</div>
+	<br><br>
+	<div class="container pics1">
+		<div class="row ">
+			<div class="col-md-3 col-sm-6 block1">
+				<h3> Design Quality </h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut adipisicing .</p>
+				<a href="#" style="color: white;">Find out more →</a> 
+			</div>
+			<div class="col-md-3 col-sm-6 block2">
+				<h3> Built To Last </h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut adipisicing .</p>
+				<a href="#" style="color: white;">Find out more →</a> 
+			</div>
+			<div class="col-md-3 col-sm-6 block3">
+				<h3> Our Clients </h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut adipisicing .</p>
+				<a href="#" style="color: white;">Get Insights →</a> 
+				<a href="#"><span class="glyphicon glyphicon-heart-empty gly" "></span></a>
+			</div>
+			<div class="col-md-3 col-sm-6 block4">
+				<h3> How to shoo great </h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut adipisicing .</p>
+				<a href="#" style="color: white;">Find out more →</a> 
+				<a href="#"><span class="glyphicon glyphicon-heart-empty gly" "></span></a>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-6 block5">
+				<h3> Sign up & see Why </h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut adipisicing .</p><br>
+				<a href="#" style="color: white;">Get Started Now →</a> 
+				<a href="#"><span class="glyphicon glyphicon-heart-empty gly" "></span></a>
+			</div>
+			<div class="col-md-3 col-sm-6 block6">
+				<h3> perfect Pictures </h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut adipisicing .</p>
+				<a href="#" style="color: white;">Find out more →</a> 
+			</div>
+			<div class="col-md-3 col-sm-6 block7">
+				<h3> How to shoo great </h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut adipisicing .</p>
+				<a href="#" style="color: white;">Get Started Now →</a> 
+				<a href="#"><span class="glyphicon glyphicon-heart-empty gly" "></span></a>
+			</div>
+		</div>
+	</div>
+	<br><br>
+	<div class="container dets">
+		<div class="row">
+			<h2 style="padding-left: 15px;">A look at the Details</h2><br><br>
+			<div class="col-md-3" >
+				<h4 style="font-family: OpenSans semibold">Web Based</h4>
+				<p id="look">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+			</div>
+			<div class="col-md-3">
+				<h4 style="font-family: OpenSans semibold">Performance</h4>
+				<p id="look">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+			</div>
+			<div class="col-md-3" >
+				<h4 style="font-family: OpenSans semibold">Culture</h4>
+				<p id="look">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+			</div>
+			<div class="col-md-3" >
+				<h4 style="font-family: OpenSans semibold">sustainability</h4>
+				<p id="look">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+			</div>
+		</div>
+	</div><br><br><br>
+	<div class="container-fluid pwr">
+		<div class="container">
+				<div class="col-md-7 pwr1">
+					<p>More power<br> behind every pixel.</p>
+					<p id="pwr2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+					<p id="pwr3"><a href="#" style="color: white;">See the options →</a></p>
+				</div>
+		
+		</div>
+		<br>
+	</div>
+	<div class="ccontainer fluid block8">
+		<div class="container rsn1">
+			<div class="row block9">
+				<h2 id="rsn">Reasons to get onboard</h2>
+			</div>
+			<div class="row" id="rsn3">
+				<div class="col-md-4 block6">
+					<h4 style="font-family:OpenSans semibold">Web based</h4><br>
+					<p id="rsn2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+				</div>
+				<div class="col-md-4 block6">
+					<h4 style="font-family:OpenSans semibold">Team login</h4><br>
+					<p id="rsn2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+				</div>
+				<div class="col-md-4 block6">
+					<h4 style="font-family:OpenSans semibold">Great Support</h4><br>
+					<p id="rsn2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+				</div>
+			</div>
+			<br>
+		</div>
+	</div>
+	<div class="container">
+		<div class="row buy">
+			<div class="col-md-6 bx1">
+				<div class="c1">
+					<button class="button btn1">Legacy</button>
+					<p id="solo">Go it Solo</p>
+					<p id="solo1">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco</p>
+					<button class="btn2"> Buy Now $7</button><br>
+					<a href="#"><span class="fa fa-apple" ></span></a>
+					<a href="#"><span class="fa fa-windows"></span></a>			
+				</div>
+			</div>
+			<div class="col-md-6 bx1">
+				<div class="c1">
+					<button class="button btn1">Most Popular</button>
+					<p id="solo">Team Plan</p>
+					<p id="solo1">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco</p>
+					<button class="btn2"> Buy Now $18</button><br>
+					<a href="#"><span class="fa fa-apple" ></span></a>
+					<a href="#"><span class="fa fa-windows"></span></a>			
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+<footer>
+	<div class="container-fluid foo1">
+		<div class="container foo2">
+			<div class="row">
+				<div class="col-md-6 foo3">
+					<p>Get In Touch</p><br>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p><br>
+				</div>
+				<div class="col-md-6">
+					<p><strong>Stay In Touch</strong></p><br>
+  					<form action="/action_page.php" class="form-inline">
+    				<div class="input-group" style="size: 5px;">
+      				<input type="text" class="form-control" placeholder="" size="40" name="search">
+      				<div class="input-group-btn" >
+        			<button class="btn btn-default" type="submit" style="background-color: #82CA9C; color: white;"> ✓ </button><br>
+    				</div>
+    				</div>
+  					</form>
+  					<br>
+  					<p style="color: #465669" id="spam">We don’t send spam. Actually, who are we kiding, we’ll spam 
+						the shit out of you’r inbox</p>	
+				</div>
+			</div>
+			<br>
+			
+			<div class="row footrow">
+				<div class="col-md-6 foo3">
+					<div class="col-md-4 col-sm-4 foo4">
+						<p>Resources</p><br>
+						<p><a href="#" id="a">Tour</a></p>
+						<p><a href="#" id="a">Customer</a></p>
+						<p><a href="#" id="a">Pricing and Plan</a></p>
+						<p><a href="#" id="a">New Feature</a></p>
+						<p><a href="#" id="a">Education</a></p><br><br>
+					</div>
+					<div class="col-md-4 col-sm-4 foo4">
+						<p>Features</p><br>
+						<p><a href="#" id="a">Tour</a></p>
+						<p><a href="#" id="a">Customer</a></p>
+						<p><a href="#" id="a">Pricing and Plan</a></p>
+						<p><a href="#" id="a">New Feature</a></p>
+						<p><a href="#" id="a">Education</a></p><br><br>
+					</div>
+					<div class="col-md-4 col-sm-4 foo4">
+						<p>How To's</p><br>
+						<p><a href="#" id="a">Tour</a></p>
+						<p><a href="#" id="a">Customer</a></p>
+						<p><a href="#" id="a">Pricing and Plan</a></p>
+						<p><a href="#" id="a">New Feature</a></p>
+						<p><a href="#" id="a">Education</a></p><br><br>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</html>
